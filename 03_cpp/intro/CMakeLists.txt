@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.1...3.24)
-project(ProjectName
-        VERSION 1.0
-        LANGUAGES CXX)
-add_executable(example example.cpp)
+cmake_minimum_required(VERSION 3.16)
+
+project(03_cpp)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(03_cpp 03.cpp)
