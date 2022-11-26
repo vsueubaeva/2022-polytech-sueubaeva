@@ -8,12 +8,8 @@ int main()
     int a,b;
     char op;
 
-    cout << "a:";
-    cin >> a ;
-    cout << "operation:";
-    cin >> op;
-    cout << "b:";
-    cin >> b;
+    cout << "a, operation, b: ";
+    cin >> a >> op >> b;
 
     switch(op){
         case '+': cout << a + b;
